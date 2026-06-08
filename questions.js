@@ -490,20 +490,6 @@ explanation:"Strict non-violence discouraged activities like agriculture that co
 },
 
 {
-id:30,
-section:"History",
-question:`Regarding Mauryan art, which feature is considered the most remarkable contribution of the period?`,
-options:{
-a:"The introduction of the Vimana style in temple architecture.",
-b:"The high-quality polish of the monolithic sandstone pillars.",
-c:"The use of marble in the construction of the palace at Pataliputra.",
-d:"The creation of the first rock-cut cave temples in South India."
-},
-answer:"b",
-explanation:"Mauryan pillars, especially Ashokan pillars, are famous for their mirror-like polish and exceptional craftsmanship."
-},
-
-{
 id:29,
 section:"History",
 question:`The Aihole Inscription, composed by Ravikirti, describes the defeat of Harshavardhana by which ruler?`,
@@ -515,6 +501,20 @@ d:"Mahendravarman I"
 },
 answer:"a",
 explanation:"The Aihole inscription records the victory of Chalukya ruler Pulakesin II over Harshavardhana."
+},
+  
+{
+id:30,
+section:"History",
+question:`Regarding Mauryan art, which feature is considered the most remarkable contribution of the period?`,
+options:{
+a:"The introduction of the Vimana style in temple architecture.",
+b:"The high-quality polish of the monolithic sandstone pillars.",
+c:"The use of marble in the construction of the palace at Pataliputra.",
+d:"The creation of the first rock-cut cave temples in South India."
+},
+answer:"b",
+explanation:"Mauryan pillars, especially Ashokan pillars, are famous for their mirror-like polish and exceptional craftsmanship."
 },
 
 {
@@ -836,14 +836,14 @@ question:`Who elects the President of India as per the Electoral College?
 A. Elected members of both Houses of Parliament
 B. Nominated members of both Houses of Parliament
 C. Elected members of the Legislative Councils of all States
-D. Elected members of the Legislative Assemblies of J&K and Puducherry which are specifically mentioned under Article 54.,
+D. Elected members of the Legislative Assemblies of J&K and Puducherry which are specifically mentioned under Article 54.`,
 options:{
 a:"A, C and D only",
 b:"A and D only",
 c:"A only",
 d:"A, B, C and D"
 },
-answer:"C",
+answer:"c",
 explanation:"Only elected MPs and elected MLAs of States, Delhi, J&K and Puducherry participate. Nominated members and Legislative Council members do not."
 },
 
@@ -878,7 +878,7 @@ b:"1 and 3 only",
 c:"1, 2 and 4",
 d:"1, 2, 3 and 4"
 },
-answer:"A",
+answer:"a",
 explanation:"Statement 1 ✅ Correct — Money Bill can be introduced only in Lok Sabha and only on the recommendation of the President.
 Statement 2 ❌ Incorrect — Rajya Sabha cannot amend a Money Bill. It can only make recommendations.
 Statement 3 ❌ Incorrect — If Rajya Sabha does not return the Bill within 14 days, it is deemed passed in the form passed by Lok Sabha, not with Rajya Sabha's recommendations.
