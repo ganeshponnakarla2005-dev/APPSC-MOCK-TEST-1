@@ -1,4 +1,4 @@
-window.questions = [
+const questions = [
 {
 id:1,
 section:"History",
