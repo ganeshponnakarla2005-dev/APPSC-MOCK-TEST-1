@@ -16,12 +16,11 @@
 <div id="quiz-container"></div>
 
 <script>
-alert("Index Loaded");
+fetch('./questions.js')
+.then(r => r.text())
+.then(t => alert("questions.js fetched OK, size=" + t.length))
+.catch(e => alert("Fetch failed"));
 </script>
-
-<script src="./questions.js"></script>
-
-<script>
 alert(typeof questions);
 </script>
 
