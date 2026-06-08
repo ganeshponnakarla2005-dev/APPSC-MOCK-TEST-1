@@ -1,3 +1,4 @@
+alert("START");
 const questions = [
 {
 id:1,
@@ -13,3 +14,4 @@ answer:"a",
 explanation:"test"
 }
 ];
+alert("END");
