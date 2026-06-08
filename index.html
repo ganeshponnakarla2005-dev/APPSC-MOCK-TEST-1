@@ -13,9 +13,49 @@
 
 <button onclick="startTest()">Start Test</button>
 
+<div id="quiz-container"></div>
+
+<script src="questions.js"></script>
+
 <script>
 function startTest(){
-  alert("Mock Test Portal Under Construction");
+
+  const container = document.getElementById("quiz-container");
+
+  let html = "";
+
+  questions.forEach((q,index)=>{
+
+    html += `
+      <div style="margin-bottom:20px;">
+        <h3>Q${index+1}. ${q.question}</h3>
+
+        <label>
+          <input type="radio" name="q${index}" value="a">
+          ${q.options.a}
+        </label><br>
+
+        <label>
+          <input type="radio" name="q${index}" value="b">
+          ${q.options.b}
+        </label><br>
+
+        <label>
+          <input type="radio" name="q${index}" value="c">
+          ${q.options.c}
+        </label><br>
+
+        <label>
+          <input type="radio" name="q${index}" value="d">
+          ${q.options.d}
+        </label>
+
+        <hr>
+      </div>
+    `;
+  });
+
+  container.innerHTML = html;
 }
 </script>
 
