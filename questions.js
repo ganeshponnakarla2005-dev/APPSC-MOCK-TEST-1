@@ -1047,3 +1047,4 @@ answer:"c",
 explanation:"The 24th Constitutional Amendment Act, 1971 made it mandatory for the President to give assent to Constitutional Amendment Bills."
 }
 ];
+console.log("Questions Loaded:", questions.length);
