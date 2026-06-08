@@ -1,3 +1,4 @@
+alert("questions.js loaded");
 const questions = [
 {
 id:1,
@@ -879,10 +880,10 @@ c:"1, 2 and 4",
 d:"1, 2, 3 and 4"
 },
 answer:"a",
-explanation:"Statement 1 ✅ Correct — Money Bill can be introduced only in Lok Sabha and only on the recommendation of the President.
-Statement 2 ❌ Incorrect — Rajya Sabha cannot amend a Money Bill. It can only make recommendations.
-Statement 3 ❌ Incorrect — If Rajya Sabha does not return the Bill within 14 days, it is deemed passed in the form passed by Lok Sabha, not with Rajya Sabha's recommendations.
-Statement 4 ❌ Incorrect — President cannot exercise suspensive veto on a Money Bill because it cannot be returned for reconsideration.
+explanation:"Statement 1  Correct — Money Bill can be introduced only in Lok Sabha and only on the recommendation of the President.
+Statement 2 Incorrect — Rajya Sabha cannot amend a Money Bill. It can only make recommendations.
+Statement 3 Incorrect — If Rajya Sabha does not return the Bill within 14 days, it is deemed passed in the form passed by Lok Sabha, not with Rajya Sabha's recommendations.
+Statement 4 Incorrect — President cannot exercise suspensive veto on a Money Bill because it cannot be returned for reconsideration.
 Therefore, only Statement 1 is correct. Answer: (A) 1 only"
 },
 
