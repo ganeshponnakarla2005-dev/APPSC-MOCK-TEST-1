@@ -1,3 +1,4 @@
+alert("questions.js loaded");
 const questions = [
 {
 id:1,
