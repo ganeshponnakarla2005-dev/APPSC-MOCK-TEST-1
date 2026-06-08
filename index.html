@@ -3,125 +3,47 @@
 <head>
 <meta charset="UTF-8">
 <title>APPSC Group-2 Mock Test</title>
-
-<style>
-body{
-    font-family:Arial,sans-serif;
-    margin:20px;
-}
-
-.question{
-    border:1px solid #ddd;
-    padding:15px;
-    margin-bottom:15px;
-    border-radius:8px;
-}
-
-button{
-    padding:10px 20px;
-    font-size:16px;
-    cursor:pointer;
-}
-
-h1{
-    color:#0d47a1;
-}
-</style>
-
 </head>
 <body>
 
 <h1>APPSC Group-2 Grand Mock Test</h1>
 
-<p><b>Total Questions:</b> 150</p>
-<p><b>Negative Marking:</b> 1/3</p>
+<p>Total Questions: 150</p>
+<p>Negative Marking: 1/3</p>
 
 <button onclick="startTest()">Start Test</button>
-
-<hr>
 
 <div id="quiz-container"></div>
 
 <script src="questions.js"></script>
 
 <script>
-
 function startTest(){
 
-    if(typeof questions === "undefined"){
-        alert("questions.js not loaded");
-        return;
-    }
+  if(typeof questions === "undefined"){
+    alert("questions.js not loaded");
+    return;
+  }
 
-    let html = "";
+  let html = "";
 
-    questions.forEach((q,index)=>{
+  questions.forEach((q,index)=>{
 
-        html += `
-        <div class="question">
+    html += `
+      <div>
+        <h3>Q${index+1}. ${q.question}</h3>
 
-            <h3>Q${index+1}. ${q.question}</h3>
-
-            <label>
-                <input type="radio" name="q${index}" value="a">
-                ${q.options.a}
-            </label>
-            <br><br>
-
-            <label>
-                <input type="radio" name="q${index}" value="b">
-                ${q.options.b}
-            </label>
-            <br><br>
-
-            <label>
-                <input type="radio" name="q${index}" value="c">
-                ${q.options.c}
-            </label>
-            <br><br>
-
-            <label>
-                <input type="radio" name="q${index}" value="d">
-                ${q.options.d}
-            </label>
-
-        </div>
-        `;
-    });
-
-    document.getElementById("quiz-container").innerHTML = html;
-
-    window.scrollTo({
-        top: document.getElementById("quiz-container").offsetTop,
-        behavior: "smooth"
-    });
-
-}
-</script>
-
-</body>
-</html>
-        <label>
-          <input type="radio" name="q${index}" value="b">
-          ${q.options.b}
-        </label><br>
-
-        <label>
-          <input type="radio" name="q${index}" value="c">
-          ${q.options.c}
-        </label><br>
-
-        <label>
-          <input type="radio" name="q${index}" value="d">
-          ${q.options.d}
-        </label>
+        <label><input type="radio" name="q${index}" value="a"> ${q.options.a}</label><br>
+        <label><input type="radio" name="q${index}" value="b"> ${q.options.b}</label><br>
+        <label><input type="radio" name="q${index}" value="c"> ${q.options.c}</label><br>
+        <label><input type="radio" name="q${index}" value="d"> ${q.options.d}</label><br>
 
         <hr>
       </div>
     `;
   });
 
-  container.innerHTML = html;
+  document.getElementById("quiz-container").innerHTML = html;
 }
 </script>
 
