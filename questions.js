@@ -1,5 +1,4 @@
-alert("questions.js loaded");
-const questions = [
+window.questions = [
 {
 id:1,
 section:"History",
