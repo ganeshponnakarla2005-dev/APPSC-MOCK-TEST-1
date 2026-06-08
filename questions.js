@@ -1,3 +1,4 @@
+const questions = [
 {
 id:1,
 section:"History",
@@ -1044,5 +1045,5 @@ d:"1st Amendment Act"
 },
 answer:"c",
 explanation:"The 24th Constitutional Amendment Act, 1971 made it mandatory for the President to give assent to Constitutional Amendment Bills."
-},
-
+}
+];
